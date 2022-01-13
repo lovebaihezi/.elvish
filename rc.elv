@@ -1,8 +1,7 @@
-set paths = [{~/perl5/bin/} $@paths {~/.emacs.d/bin} {~/.local/coursier/bin}]
+set paths = [{~/perl5/bin/} $@paths {~/.emacs.d/bin} {~/.local/coursier/bin} {/opt/cuda/bin/}]
 set paths = [{~/.mix/escripts/} $@paths {~/.cargo/bin}]
 set paths = [{~/.yarn/bin/} $@paths {~/go/bin}]
-set paths = [{~/.config/yarn/global/node_modules/.bin} $@paths {~/.local/bin/}]
-set paths = [/opt/cuda/bin/ $@paths]
+# set paths = [{~/.config/yarn/global/node_modules/.bin} $@paths {~/.local/bin/}]
 
 use github.com/muesli/elvish-libs/theme/powerline
 use github.com/zzamboni/elvish-completions/builtins
